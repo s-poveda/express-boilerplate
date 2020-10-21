@@ -1,6 +1,6 @@
 const app = require('../src/app');
 const { expect } = require('chai');
-const superTest = require('superTest');
+const superTest = require('supertest');
 
 describe('App', ()=>{
 	it('GET responds 200 at "/"', ()=>{
