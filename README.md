@@ -24,9 +24,12 @@ Set up the application `npm run setup -- [name of your project]`
 
 - `example.env` will be replaced with `.env`
 
+
 - Git history will be reinitialized.
 
-- `npm i --dev` invoked to install all dependencies
+
+- Installs all dependencies
+
 
 Start the application `npm start`
 
