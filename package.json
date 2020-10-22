@@ -4,7 +4,7 @@
   "description": "",
   "main": "src/server.js",
   "scripts": {
-    "setup": "node setup.js && mv example.env .env && rm -rf ./.git && git init && npm i --only=dev",
+    "setup": "node setup.js && mv example.env .env && rm -rf ./.git && git init && npm i",
     "start": "node src/server.js",
     "dev": "nodemon src/server.js",
 		"test": "mocha --require test/setup.js",
