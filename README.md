@@ -18,9 +18,14 @@ If `npm run setup` fails, or you want to configure manually, complete the follow
 Set up the application `npm run setup`
 
 - `package.json`
+
 	* `name` will be the current directory name. Always lower case.
+	
+
 - `example.env` will be replaced with `.env`
+
 - Git history will be wiped.
+
 - `npm i --dev` invoked to install all dependencies
 
 Start the application `npm start`
