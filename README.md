@@ -21,7 +21,7 @@ Set up the application `npm run setup`
 	* `name` will be the current directory name. Always lower case.
 - `example.env` will be replaced with `.env`
 - Git history will be wiped.
-- `npm i` invoked to install dependencies
+- `npm i --dev` invoked to install all dependencies
 
 Start the application `npm start`
 
