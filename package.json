@@ -4,7 +4,7 @@
   "description": "",
   "main": "src/server.js",
   "scripts": {
-		"presetup": "[ -f \"./example.env\" ]  && (mv example.env .env && echo created '.env' file successfully) || echo \"'no example.env.' Skipping...\"",
+		"presetup": "[ -f \"./example.env\" ]  && (mv example.env .env && echo created '.env' file successfully) || echo \"no 'example.env.' Skipping...\"",
     "setup": "node setup.js && git init && npm i",
 		"start": "node src/server.js",
     "dev": "nodemon src/server.js",
